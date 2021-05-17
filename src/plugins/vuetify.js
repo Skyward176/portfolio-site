@@ -7,4 +7,7 @@ import * as directives from 'vuetify/lib/directives'
 export default createVuetify({
   components,
   directives,
+  theme: {
+  defaultTheme: 'dark'
+  }
 })
